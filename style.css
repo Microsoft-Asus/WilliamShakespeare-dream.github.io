@@ -6,9 +6,11 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,1)), url(bg.jpg);
+	background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)), url(bg.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position-x: center;
+	background-position-y: 100%;
 }
 
 .main {
@@ -20,7 +22,7 @@ body {
 .sign-wrap-4 {
     /*background: #000;*/
     text-align: center;
-    padding: 35vh 20px;
+    padding: 10vh 20px 35vh 20px;
 }
 .sign-wrap-4 .sign_word {
     font-size: 40px;
@@ -46,6 +48,35 @@ body {
 .ff-4 {
 	font-family: 'Lexend Tera', sans-serif;
 }
+.btn-door {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.btn-door button{
+	position: relative;
+	width: 135px;
+	height: 287px;
+	margin-top: 94px;
+	left: 5%;
+	background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.1)), url(door.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	outline: none;
+	border: none;
+	background-size: contain;
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 30px 30px rgba(0,0,0,.8);
+	color:#fff;
+	font-family: 'Quicksand', sans-serif;
+	
+}
+
+.btn-door button .text_door {
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+}
 
 .sign-wrap-4 .sign_word .delay-1 {
     animation: neon-4 linear infinite 3s;
@@ -53,9 +84,7 @@ body {
 .sign-wrap-4 .sign_word .delay-5 {
     animation: neon-4 linear infinite 10s;
 }
-.sign-wrap-4 .sign_word .error {
 
-}
 
 @keyframes neon-4 {
     78% {
@@ -107,14 +136,14 @@ body {
 }
 .glitch::after {
   animation-name: glitch-animation;
-  animation-duration: 100s;
+  animation-duration: 4s;
   left: 1px;
   text-shadow: -1px 0 #ffa800;
   background: rgba(0,0,0,.1);
 }
 .glitch::before {
   animation-name: glitch-animation-2;
-  animation-duration: 5s;
+  animation-duration: 2s;
   left: -3px;
   text-shadow: 1px 0 #00d8ff;
   background: rgba(0,0,0,.2);
