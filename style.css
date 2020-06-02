@@ -1,9 +1,12 @@
 @font-face {
   font-family: 'Neon';
-  src: url("NEON.ttf");
-  font-style: normal; 
-  font-weight: 400; 
+  src: url('Neon.ttf') format('truetype'),
+       url('Neon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 
 body {
 	overflow: hidden;
@@ -69,7 +72,6 @@ body {
 }
 .ff-3 {
 	font-family: 'Neon';
-	
 }
 .ff-3 h3 {
 	padding: 0 0 20px 0;
