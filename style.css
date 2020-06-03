@@ -70,17 +70,19 @@ body {
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
 }
 
-.ff-1 {
+
+.ff-3 {
 	font-family: 'Satisfy', cursive;
 }
-.ff-3 {
+.ff-1 {
+	
 	font-family: 'Neon';
 }
 .ff-3 h3 {
 	padding: 0 0 0 0;
 	margin: 0;
 	font-size: 40px;
-	letter-spacing: 4px;
+	letter-spacing: 1px;
 }
 
 .ff-3 h4 {
